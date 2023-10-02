@@ -9,7 +9,7 @@ export default function HomeCard({ data }) {
             <div className="w-7/12">
                 <div className="flex items-center gap-2">
                     <img className="w-10 rounded-full h-10" src="https://i.ibb.co/KbsC2db/programminghero-logo.jpg" alt="img not found" />
-                    <h2 className="font-semibold">Programming Hero</h2>
+                    <h2 className="font-semibold">Programming Hero .</h2>
                 </div>
                 <h2 className="text-xl font-semibold">{data.title}</h2>
                 <p className="my-4">{data.description}</p>
